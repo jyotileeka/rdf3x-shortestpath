@@ -298,7 +298,7 @@ void dijkstra_implemenation(Database& db, string srcDest[2]) //srcDest[2] is an 
         }
     
         vertex=prev[vertex].first;
-    }while(vertex!=0); 
+    }while(prev.count(vertex)); 
     /*if (pathExists)
         resourcePath=resourcePath+1; //It will give the path to the source to the destination
     */
@@ -391,7 +391,7 @@ void dijkstra_implemenationOutputPrintedOnConsole(Database& db, string srcDest[2
         }
     
         vertex=prev[vertex].first;
-    }while(vertex!=0); 
+    }while(prev.count(vertex)); 
     /*if(pathExists)
         resourcePath=resourcePath+1; //It will give the path to the source to the destination*/
 
@@ -523,7 +523,7 @@ void OldDijkstra_implemenation(Database& db, string srcDest[2])
             pathExists=true;
         }        
         vertex=prev[vertex];
-    }while(vertex!=0); 
+    }while(prev.count(vertex)); 
    /*if(pathExists)
        triplePathDistance=triplePathDistance+1;*/
    gettimeofday(&endTime, NULL);
