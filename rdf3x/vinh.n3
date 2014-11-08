@@ -1,0 +1,5 @@
+<Bob_Dylan> <isMarriedTo#1> <Sara_Lownds>.
+<isMarriedTo#1> <startsOn> <A>.
+<isMarriedTo#1> <singletonPropertyOf> <isMarriedTo>.
+<A> <endsOn> <B>.
+<C> <begins> <D>.

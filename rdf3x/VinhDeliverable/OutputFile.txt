@@ -1,0 +1,149 @@
+
+ The vertexes in the path from source to destination in reverse order are:http://yago-knowledge.org/resource/id_1pz5ld6_x77_1umh2ta
+http://yago-knowledge.org/resource/id_1tyjwzl_19y_n8hn0n
+http://yago-knowledge.org/resource/William_M._Daley
+http://yago-knowledge.org/resource/id_1623d6a_x77_1tyjwzl
+http://yago-knowledge.org/resource/id_1txrjdd_19y_n8hn0n
+http://yago-knowledge.org/resource/Pete_Rouse
+http://yago-knowledge.org/resource/id_1huff3f_x77_1txrjdd
+http://yago-knowledge.org/resource/id_lu06jg_19y_n8hn0n
+http://yago-knowledge.org/resource/Rahm_Emanuel
+http://yago-knowledge.org/resource/id_1ofi5go_x77_lu06jg
+http://yago-knowledge.org/resource/id_900yd3_19y_n8hn0n
+http://yago-knowledge.org/resource/Joshua_Bolten
+http://yago-knowledge.org/resource/id_lc8pv5_x77_900yd3
+http://yago-knowledge.org/resource/id_9eg59e_19y_n8hn0n
+http://yago-knowledge.org/resource/Andrew_Card
+http://yago-knowledge.org/resource/id_1g7y8gg_x77_9eg59e
+http://yago-knowledge.org/resource/id_1otsejo_19y_1x6qtik
+http://yago-knowledge.org/resource/Samuel_K._Skinner
+http://yago-knowledge.org/resource/id_xcthki_x77_1otsejo
+http://yago-knowledge.org/resource/id_12asqet_19y_n8hn0n
+http://yago-knowledge.org/resource/John_H._Sununu
+http://yago-knowledge.org/resource/id_1pzlyvx_x77_12asqet
+http://yago-knowledge.org/resource/id_isw45o_19y_1nnn7f1
+http://yago-knowledge.org/resource/Vesta_M._Roy
+http://yago-knowledge.org/resource/id_9clt3e_x77_isw45o
+http://yago-knowledge.org/resource/id_aa7xw_19y_1nnn7f1
+http://yago-knowledge.org/resource/Hugh_Gallen
+http://yago-knowledge.org/resource/id_5p5gs9_x77_aa7xw
+http://yago-knowledge.org/resource/id_a29b0s_19y_1nnn7f1
+http://yago-knowledge.org/resource/Meldrim_Thomson,_Jr.
+http://yago-knowledge.org/resource/id_1m0t5xb_x77_a29b0s
+http://yago-knowledge.org/resource/id_14mwq2y_19y_1nnn7f1
+http://yago-knowledge.org/resource/Walter_R._Peterson,_Jr.
+http://yago-knowledge.org/resource/id_1t558uo_x77_14mwq2y
+http://yago-knowledge.org/resource/id_67yvxn_19y_1nnn7f1
+http://yago-knowledge.org/resource/John_W._King
+http://yago-knowledge.org/resource/id_1tbann8_x77_67yvxn
+http://yago-knowledge.org/resource/id_mri4q9_19y_1nnn7f1
+http://yago-knowledge.org/resource/Wesley_Powell
+http://yago-knowledge.org/resource/id_1j76u63_x77_mri4q9
+http://yago-knowledge.org/resource/id_5qw7ru_19y_1nnn7f1
+http://yago-knowledge.org/resource/Lane_Dwinell
+http://yago-knowledge.org/resource/id_1lz335z_x77_5qw7ru
+http://yago-knowledge.org/resource/id_1s6a1yh_19y_1nnn7f1
+http://yago-knowledge.org/resource/Hugh_Gregg
+http://yago-knowledge.org/resource/id_75pocc_x77_1s6a1yh
+http://yago-knowledge.org/resource/id_oxe5el_19y_1nnn7f1
+http://yago-knowledge.org/resource/Sherman_Adams
+http://yago-knowledge.org/resource/id_9xst26_204_oxe5el
+http://yago-knowledge.org/resource/id_es79o8_19y_n8hn0n
+http://yago-knowledge.org/resource/Wilton_Persons
+http://yago-knowledge.org/resource/id_10d1xmw_204_es79o8
+http://yago-knowledge.org/resource/id_psuogy_19y_n8hn0n
+http://yago-knowledge.org/resource/W._Marvin_Watson
+
+ Resource Path:54	 Time elapsed:76 seconds
+	http://yago-knowledge.org/resource/W._Marvin_Watson	http://yago-knowledge.org/resource/Jacob_Lew
+
+ The vertexes in the path from source to destination in reverse order are:http://yago-knowledge.org/resource/id_8u4j1t_204_1otsejo
+http://yago-knowledge.org/resource/id_9eg59e_19y_1x6qtik
+http://yago-knowledge.org/resource/Andrew_Card
+http://yago-knowledge.org/resource/id_1ofi5go_204_9eg59e
+http://yago-knowledge.org/resource/id_900yd3_19y_n8hn0n
+http://yago-knowledge.org/resource/Joshua_Bolten
+http://yago-knowledge.org/resource/id_1huff3f_204_900yd3
+http://yago-knowledge.org/resource/id_lu06jg_19y_n8hn0n
+http://yago-knowledge.org/resource/Rahm_Emanuel
+http://yago-knowledge.org/resource/id_1623d6a_204_lu06jg
+http://yago-knowledge.org/resource/id_1txrjdd_19y_n8hn0n
+http://yago-knowledge.org/resource/Pete_Rouse
+http://yago-knowledge.org/resource/id_1pz5ld6_204_1txrjdd
+http://yago-knowledge.org/resource/id_1tyjwzl_19y_n8hn0n
+http://yago-knowledge.org/resource/William_M._Daley
+
+ Resource Path:15	 Time elapsed:72 seconds
+	http://yago-knowledge.org/resource/William_M._Daley	http://yago-knowledge.org/resource/Samuel_K._Skinner
+
+ The vertexes in the path from source to destination in reverse order are:http://yago-knowledge.org/resource/id_1pz5ld6_x77_1umh2ta
+http://yago-knowledge.org/resource/id_1tyjwzl_19y_n8hn0n
+http://yago-knowledge.org/resource/William_M._Daley
+http://yago-knowledge.org/resource/id_1623d6a_x77_1tyjwzl
+http://yago-knowledge.org/resource/id_1txrjdd_19y_n8hn0n
+http://yago-knowledge.org/resource/Pete_Rouse
+http://yago-knowledge.org/resource/id_1huff3f_x77_1txrjdd
+http://yago-knowledge.org/resource/id_lu06jg_19y_n8hn0n
+http://yago-knowledge.org/resource/Rahm_Emanuel
+http://yago-knowledge.org/resource/id_1ofi5go_x77_lu06jg
+http://yago-knowledge.org/resource/id_900yd3_19y_n8hn0n
+http://yago-knowledge.org/resource/Joshua_Bolten
+http://yago-knowledge.org/resource/id_lc8pv5_x77_900yd3
+http://yago-knowledge.org/resource/id_9eg59e_19y_n8hn0n
+http://yago-knowledge.org/resource/Andrew_Card
+http://yago-knowledge.org/resource/id_1g7y8gg_x77_9eg59e
+http://yago-knowledge.org/resource/id_1otsejo_19y_1x6qtik
+http://yago-knowledge.org/resource/Samuel_K._Skinner
+
+ Resource Path:18	 Time elapsed:72 seconds
+	http://yago-knowledge.org/resource/Samuel_K._Skinner	http://yago-knowledge.org/resource/Jacob_Lew
+
+ The vertexes in the path from source to destination in reverse order are:http://yago-knowledge.org/resource/id_8u4j1t_204_1otsejo
+http://yago-knowledge.org/resource/id_9eg59e_19y_1x6qtik
+http://yago-knowledge.org/resource/Andrew_Card
+http://yago-knowledge.org/resource/id_1ofi5go_204_9eg59e
+http://yago-knowledge.org/resource/id_900yd3_19y_n8hn0n
+http://yago-knowledge.org/resource/Joshua_Bolten
+http://yago-knowledge.org/resource/id_1huff3f_204_900yd3
+http://yago-knowledge.org/resource/id_lu06jg_19y_n8hn0n
+http://yago-knowledge.org/resource/Rahm_Emanuel
+http://yago-knowledge.org/resource/id_1623d6a_204_lu06jg
+http://yago-knowledge.org/resource/id_1txrjdd_19y_n8hn0n
+http://yago-knowledge.org/resource/Pete_Rouse
+http://yago-knowledge.org/resource/id_1pz5ld6_204_1txrjdd
+http://yago-knowledge.org/resource/id_1tyjwzl_19y_n8hn0n
+http://yago-knowledge.org/resource/William_M._Daley
+http://yago-knowledge.org/resource/id_81myyn_204_1tyjwzl
+http://yago-knowledge.org/resource/id_1umh2ta_19y_n8hn0n
+http://yago-knowledge.org/resource/Jacob_Lew
+
+ Resource Path:18	 Time elapsed:75 seconds
+	http://yago-knowledge.org/resource/Jacob_Lew	http://yago-knowledge.org/resource/Samuel_K._Skinner
+
+ The vertexes in the path from source to destination in reverse order are:http://yago-knowledge.org/resource/id_1623d6a_x77_1tyjwzl
+http://yago-knowledge.org/resource/id_1txrjdd_19y_n8hn0n
+http://yago-knowledge.org/resource/Pete_Rouse
+http://yago-knowledge.org/resource/id_1huff3f_x77_1txrjdd
+http://yago-knowledge.org/resource/id_lu06jg_19y_n8hn0n
+http://yago-knowledge.org/resource/Rahm_Emanuel
+http://yago-knowledge.org/resource/id_1ofi5go_x77_lu06jg
+http://yago-knowledge.org/resource/id_900yd3_19y_n8hn0n
+http://yago-knowledge.org/resource/Joshua_Bolten
+http://yago-knowledge.org/resource/id_lc8pv5_x77_900yd3
+http://yago-knowledge.org/resource/id_9eg59e_19y_n8hn0n
+http://yago-knowledge.org/resource/Andrew_Card
+http://yago-knowledge.org/resource/id_1g7y8gg_x77_9eg59e
+http://yago-knowledge.org/resource/id_1otsejo_19y_1x6qtik
+http://yago-knowledge.org/resource/Samuel_K._Skinner
+http://yago-knowledge.org/resource/id_xcthki_x77_1otsejo
+http://yago-knowledge.org/resource/id_12asqet_19y_n8hn0n
+http://yago-knowledge.org/resource/John_H._Sununu
+http://yago-knowledge.org/resource/id_8o0sbz_x77_12asqet
+http://yago-knowledge.org/resource/id_68x4dn_19y_n8hn0n
+http://yago-knowledge.org/resource/Kenneth_Duberstein
+
+ Resource Path:21	 Time elapsed:75 seconds
+	http://yago-knowledge.org/resource/Kenneth_Duberstein	http://yago-knowledge.org/resource/William_M._Daley
+
+ The vertexes in the path from source to destination in reverse order are:
+55	79261 milliseconds	http://yago-knowledge.org/resource/W._Marvin_Watson	http://yago-knowledge.org/resource/Jacob_Lew

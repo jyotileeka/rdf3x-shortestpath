@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="88">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="rdf3x">
+      <df name="api">
+        <df name="java">
+          <df name="de">
+            <df name="mpii">
+              <df name="rdf3x">
+              </df>
+            </df>
+          </df>
+          <df name="META-INF">
+            <df name="services">
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="bin">
+        <df name="BKR">
+        </df>
+        <df name="coldCacheTiming">
+        </df>
+        <df name="cts">
+          <df name="codegen">
+          </df>
+          <df name="infra">
+          </df>
+          <df name="parser">
+          </df>
+          <df name="plangen">
+          </df>
+          <df name="semana">
+          </df>
+        </df>
+        <df name="infra">
+          <df name="osdep">
+          </df>
+          <df name="util">
+          </df>
+        </df>
+        <df name="makeutil">
+        </df>
+        <df name="rts">
+          <df name="buffer">
+          </df>
+          <df name="database">
+          </df>
+          <df name="operator">
+          </df>
+          <df name="partition">
+          </df>
+          <df name="runtime">
+          </df>
+          <df name="segment">
+          </df>
+          <df name="transaction">
+          </df>
+        </df>
+        <df name="tools">
+          <df name="rdf3xdump">
+          </df>
+          <df name="rdf3xembedded">
+          </df>
+          <df name="rdf3xload">
+          </df>
+          <df name="rdf3xquery">
+          </df>
+          <df name="rdf3xreorg">
+          </df>
+          <df name="rdf3xupdate">
+          </df>
+        </df>
+        <df name="VinhDeliverable">
+        </df>
+        <df name="WarmCache">
+        </df>
+        <df name="withAggIndex">
+        </df>
+        <df name="yago2sEvaluations">
+          <df name="fullDatabase">
+          </df>
+          <df name="FullIndex">
+          </df>
+          <df name="SPODatabase">
+          </df>
+        </df>
+      </df>
+      <df name="cts">
+        <df name="codegen">
+          <in>CodeGen.cpp</in>
+        </df>
+        <df name="infra">
+          <in>BitSet.cpp</in>
+          <in>QueryGraph.cpp</in>
+        </df>
+        <df name="parser">
+          <in>SPARQLLexer.cpp</in>
+          <in>SPARQLParser.cpp</in>
+          <in>TurtleParser.cpp</in>
+        </df>
+        <df name="plangen">
+          <in>Plan.cpp</in>
+          <in>PlanGen.cpp</in>
+        </df>
+        <df name="semana">
+          <in>SemanticAnalysis.cpp</in>
+        </df>
+      </df>
+      <df name="gtest">
+        <df name="include">
+          <df name="gtest">
+            <df name="internal">
+              <in>gtest-death-test-internal.h</in>
+              <in>gtest-filepath.h</in>
+              <in>gtest-internal.h</in>
+              <in>gtest-linked_ptr.h</in>
+              <in>gtest-param-util-generated.h</in>
+              <in>gtest-param-util.h</in>
+              <in>gtest-port.h</in>
+              <in>gtest-string.h</in>
+              <in>gtest-type-util.h</in>
+            </df>
+            <in>gtest-death-test.h</in>
+            <in>gtest-message.h</in>
+            <in>gtest-param-test.h</in>
+            <in>gtest-spi.h</in>
+            <in>gtest-test-part.h</in>
+            <in>gtest-typed-test.h</in>
+            <in>gtest.h</in>
+            <in>gtest_pred_impl.h</in>
+            <in>gtest_prod.h</in>
+          </df>
+        </df>
+        <df name="src">
+          <in>gtest-death-test.cpp</in>
+          <in>gtest-filepath.cpp</in>
+          <in>gtest-internal-inl.h</in>
+          <in>gtest-port.cpp</in>
+          <in>gtest-test-part.cpp</in>
+          <in>gtest-typed-test.cpp</in>
+          <in>gtest.cpp</in>
+        </df>
+      </df>
+      <df name="include">
+        <df name="cts">
+          <df name="codegen">
+            <in>CodeGen.hpp</in>
+          </df>
+          <df name="infra">
+            <in>BitSet.hpp</in>
+            <in>QueryGraph.hpp</in>
+          </df>
+          <df name="parser">
+            <in>SPARQLLexer.hpp</in>
+            <in>SPARQLParser.hpp</in>
+            <in>TurtleParser.hpp</in>
+          </df>
+          <df name="plangen">
+            <in>Costs.hpp</in>
+            <in>Plan.hpp</in>
+            <in>PlanGen.hpp</in>
+          </df>
+          <df name="semana">
+            <in>SemanticAnalysis.hpp</in>
+          </df>
+        </df>
+        <df name="infra">
+          <df name="osdep">
+            <in>Event.hpp</in>
+            <in>GrowableMappedFile.hpp</in>
+            <in>Latch.hpp</in>
+            <in>MemoryMappedFile.hpp</in>
+            <in>Mutex.hpp</in>
+            <in>Thread.hpp</in>
+            <in>Timestamp.hpp</in>
+          </df>
+          <df name="util">
+            <in>Hash.hpp</in>
+            <in>Pool.hpp</in>
+            <in>Type.hpp</in>
+            <in>VarPool.hpp</in>
+            <in>fastlz.hpp</in>
+          </df>
+          <in>Config.hpp</in>
+        </df>
+        <df name="rts">
+          <df name="buffer">
+            <in>BufferManager.hpp</in>
+            <in>BufferReference.hpp</in>
+          </df>
+          <df name="database">
+            <in>Database.hpp</in>
+            <in>DatabaseBuilder.hpp</in>
+            <in>DatabasePartition.hpp</in>
+          </df>
+          <df name="operator">
+            <in>AggregatedIndexScan.hpp</in>
+            <in>EmptyScan.hpp</in>
+            <in>Filter.hpp</in>
+            <in>FullyAggregatedIndexScan.hpp</in>
+            <in>HashGroupify.hpp</in>
+            <in>HashJoin.hpp</in>
+            <in>IndexScan.hpp</in>
+            <in>MergeJoin.hpp</in>
+            <in>MergeUnion.hpp</in>
+            <in>NestedLoopFilter.hpp</in>
+            <in>NestedLoopJoin.hpp</in>
+            <in>Operator.hpp</in>
+            <in>PlanPrinter.hpp</in>
+            <in>ResultsPrinter.hpp</in>
+            <in>Scheduler.hpp</in>
+            <in>Selection.hpp</in>
+            <in>SingletonScan.hpp</in>
+            <in>Sort.hpp</in>
+            <in>TableFunction.hpp</in>
+            <in>Union.hpp</in>
+          </df>
+          <df name="partition">
+            <in>FilePartition.hpp</in>
+            <in>Partition.hpp</in>
+          </df>
+          <df name="runtime">
+            <in>BulkOperation.hpp</in>
+            <in>DifferentialIndex.hpp</in>
+            <in>DomainDescription.hpp</in>
+            <in>PredicateLockManager.hpp</in>
+            <in>Runtime.hpp</in>
+            <in>TemporaryDictionary.hpp</in>
+          </df>
+          <df name="segment">
+            <in>AggregatedFactsSegment.hpp</in>
+            <in>BTree.hpp</in>
+            <in>DictionarySegment.hpp</in>
+            <in>ExactStatisticsSegment.hpp</in>
+            <in>FactsSegment.hpp</in>
+            <in>FullyAggregatedFactsSegment.hpp</in>
+            <in>PredicateSetSegment.hpp</in>
+            <in>Segment.hpp</in>
+            <in>SegmentInventorySegment.hpp</in>
+            <in>SpaceInventorySegment.hpp</in>
+          </df>
+          <df name="transaction">
+            <in>LogAction.hpp</in>
+            <in>LogManager.hpp</in>
+          </df>
+        </df>
+        <df name="tools">
+          <in>rdf3xquery.h</in>
+        </df>
+      </df>
+      <df name="infra">
+        <df name="osdep">
+          <in>Event.cpp</in>
+          <in>GrowableMappedFile.cpp</in>
+          <in>Latch.cpp</in>
+          <in>MemoryMappedFile.cpp</in>
+          <in>Mutex.cpp</in>
+          <in>Thread.cpp</in>
+          <in>Timestamp.cpp</in>
+        </df>
+        <df name="util">
+          <in>Hash.cpp</in>
+          <in>Pool.cpp</in>
+          <in>fastlz.cpp</in>
+        </df>
+      </df>
+      <df name="makeutil">
+        <in>getdep.cpp</in>
+      </df>
+      <df name="rts">
+        <df name="buffer">
+          <in>BufferManager.cpp</in>
+          <in>BufferReference.cpp</in>
+        </df>
+        <df name="database">
+          <in>Database.cpp</in>
+          <in>DatabaseBuilder.cpp</in>
+          <in>DatabasePartition.cpp</in>
+        </df>
+        <df name="operator">
+          <in>AggregatedIndexScan.cpp</in>
+          <in>EmptyScan.cpp</in>
+          <in>Filter.cpp</in>
+          <in>FullyAggregatedIndexScan.cpp</in>
+          <in>HashGroupify.cpp</in>
+          <in>HashJoin.cpp</in>
+          <in>IndexScan.cpp</in>
+          <in>MergeJoin.cpp</in>
+          <in>MergeUnion.cpp</in>
+          <in>NestedLoopFilter.cpp</in>
+          <in>NestedLoopJoin.cpp</in>
+          <in>Operator.cpp</in>
+          <in>PlanPrinter.cpp</in>
+          <in>ResultsPrinter.cpp</in>
+          <in>Scheduler.cpp</in>
+          <in>Selection.cpp</in>
+          <in>SingletonScan.cpp</in>
+          <in>Sort.cpp</in>
+          <in>TableFunction.cpp</in>
+          <in>Union.cpp</in>
+        </df>
+        <df name="partition">
+          <in>FilePartition.cpp</in>
+          <in>Partition.cpp</in>
+        </df>
+        <df name="runtime">
+          <in>BulkOperation.cpp</in>
+          <in>DifferentialIndex.cpp</in>
+          <in>DomainDescription.cpp</in>
+          <in>PredicateLockManager.cpp</in>
+          <in>Runtime.cpp</in>
+          <in>TemporaryDictionary.cpp</in>
+        </df>
+        <df name="segment">
+          <in>AggregatedFactsSegment.cpp</in>
+          <in>BTree.cpp</in>
+          <in>DictionarySegment.cpp</in>
+          <in>ExactStatisticsSegment.cpp</in>
+          <in>FactsSegment.cpp</in>
+          <in>FullyAggregatedFactsSegment.cpp</in>
+          <in>PredicateSetSegment.cpp</in>
+          <in>Segment.cpp</in>
+          <in>SegmentInventorySegment.cpp</in>
+          <in>SpaceInventorySegment.cpp</in>
+        </df>
+        <df name="transaction">
+          <in>LogAction.cpp</in>
+          <in>LogManager.cpp</in>
+        </df>
+      </df>
+      <df name="test">
+        <df name="infra">
+          <df name="osdep">
+            <in>TestGrowableMappedFile.cpp</in>
+          </df>
+        </df>
+        <df name="queries">
+          <df name="barton">
+            <df name="monetdb">
+            </df>
+            <df name="oracle">
+            </df>
+            <df name="postgresql">
+            </df>
+          </df>
+          <df name="billion">
+            <df name="monetdb">
+            </df>
+            <df name="postgres">
+            </df>
+          </df>
+          <df name="librarything">
+            <df name="monetdb">
+            </df>
+            <df name="postgresql">
+            </df>
+          </df>
+          <df name="uniprot">
+            <df name="monetdb">
+            </df>
+            <df name="postgres">
+            </df>
+          </df>
+          <df name="yago">
+            <df name="monetdb">
+            </df>
+            <df name="postgresql">
+            </df>
+          </df>
+        </df>
+        <df name="rts">
+          <df name="partition">
+            <in>TestFilePartition.cpp</in>
+          </df>
+          <df name="segment">
+            <in>TestSpaceInventorySegment.cpp</in>
+          </df>
+        </df>
+        <df name="updates">
+        </df>
+        <in>rdf3xtest.cpp</in>
+      </df>
+      <df name="tools">
+        <df name="buildmonetdb">
+          <in>buildmonetdb.cpp</in>
+        </df>
+        <df name="buildn3">
+          <in>buildn3.cpp</in>
+        </df>
+        <df name="buildpostgresql">
+          <in>buildpostgresql.cpp</in>
+        </df>
+        <df name="buildrdfstore">
+          <in>buildrdfstore.cpp</in>
+        </df>
+        <df name="buildtransactions">
+          <in>buildtransactions.cpp</in>
+        </df>
+        <df name="checkrdfstore">
+          <in>checkrdfstore.cpp</in>
+        </df>
+        <df name="checkupdates">
+          <in>checkupdates.cpp</in>
+        </df>
+        <df name="dijkstra_implementation">
+          <in>dijkstra_implemenation.cpp</in>
+        </df>
+        <df name="dumpredland">
+          <in>dumpredland.cpp</in>
+        </df>
+        <df name="dumpyago">
+          <in>dumpyago.cpp</in>
+        </df>
+        <df name="evalsparql">
+          <in>evalsparql.cpp</in>
+        </df>
+        <df name="extractqueries">
+          <in>extractqueries.cpp</in>
+        </df>
+        <df name="extractschema">
+          <in>extractschema.cpp</in>
+        </df>
+        <df name="extractstats">
+          <in>extractstats.cpp</in>
+        </df>
+        <df name="id2name">
+          <in>id2name.cpp</in>
+          <in>name2id.cpp</in>
+        </df>
+        <df name="predtest">
+          <in>fittest.cpp</in>
+          <in>predtest.cpp</in>
+        </df>
+        <df name="printscan">
+          <in>printscan.cpp</in>
+        </df>
+        <df name="querygen">
+          <in>querygen.cpp</in>
+        </df>
+        <df name="rdf3xdump">
+          <in>rdf3xdump.cpp</in>
+        </df>
+        <df name="rdf3xembedded">
+          <in>rdf3xembedded.cpp</in>
+        </df>
+        <df name="rdf3xload">
+          <in>Sorter.cpp</in>
+          <in>Sorter.hpp</in>
+          <in>StringLookup.cpp</in>
+          <in>StringLookup.hpp</in>
+          <in>TempFile.cpp</in>
+          <in>TempFile.hpp</in>
+          <in>rdf3xload.cpp</in>
+        </df>
+        <df name="rdf3xquery">
+          <in>rdf3xquery.cpp</in>
+        </df>
+        <df name="rdf3xreorg">
+          <in>rdf3xreorg.cpp</in>
+        </df>
+        <df name="rdf3xupdate">
+          <in>rdf3xupdate.cpp</in>
+        </df>
+        <df name="resolvestrings">
+          <in>resolvestrings.cpp</in>
+        </df>
+        <df name="runbenchmark">
+          <in>runbenchmark.cpp</in>
+        </df>
+        <df name="transactiontests">
+          <in>transactiontest-postgresql.cpp</in>
+          <in>transactiontest-rdf3x.cpp</in>
+        </df>
+        <df name="translatesparql">
+          <in>translatesparql.cpp</in>
+        </df>
+        <df name="updatetest">
+          <in>updatetest.cpp</in>
+        </df>
+        <df name="users">
+          <in>budgetrestriction.cpp</in>
+        </df>
+      </df>
+      <df name="VinhDeliverable">
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" db </runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" db yagonew.n3</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" db yagob.n3</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" db white.n3</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" db yago.n3</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" db --ntriples</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" db yagoc.n3</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" db vinh.n3</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" db</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" db inputFile.txt</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" db inputFile.txt</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

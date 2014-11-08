@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="88">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="rdf3x">
+      <df name="cts">
+        <df name="codegen">
+          <in>CodeGen.cpp</in>
+        </df>
+        <df name="infra">
+          <in>BitSet.cpp</in>
+          <in>QueryGraph.cpp</in>
+        </df>
+        <df name="parser">
+          <in>SPARQLLexer.cpp</in>
+          <in>SPARQLParser.cpp</in>
+          <in>TurtleParser.cpp</in>
+        </df>
+        <df name="plangen">
+          <in>Plan.cpp</in>
+          <in>PlanGen.cpp</in>
+        </df>
+        <df name="semana">
+          <in>SemanticAnalysis.cpp</in>
+        </df>
+      </df>
+      <df name="include">
+        <df name="cts">
+          <df name="codegen">
+            <in>CodeGen.hpp</in>
+          </df>
+          <df name="infra">
+            <in>BitSet.hpp</in>
+            <in>QueryGraph.hpp</in>
+          </df>
+          <df name="parser">
+            <in>SPARQLLexer.hpp</in>
+            <in>SPARQLParser.hpp</in>
+            <in>TurtleParser.hpp</in>
+          </df>
+          <df name="plangen">
+            <in>Costs.hpp</in>
+            <in>Plan.hpp</in>
+            <in>PlanGen.hpp</in>
+          </df>
+          <df name="semana">
+            <in>SemanticAnalysis.hpp</in>
+          </df>
+        </df>
+        <df name="infra">
+          <df name="osdep">
+            <in>Event.hpp</in>
+            <in>GrowableMappedFile.hpp</in>
+            <in>Latch.hpp</in>
+            <in>MemoryMappedFile.hpp</in>
+            <in>Mutex.hpp</in>
+            <in>Thread.hpp</in>
+            <in>Timestamp.hpp</in>
+          </df>
+          <df name="util">
+            <in>Hash.hpp</in>
+            <in>Pool.hpp</in>
+            <in>Type.hpp</in>
+            <in>VarPool.hpp</in>
+            <in>fastlz.hpp</in>
+          </df>
+          <in>Config.hpp</in>
+        </df>
+        <df name="rts">
+          <df name="buffer">
+            <in>BufferManager.hpp</in>
+            <in>BufferReference.hpp</in>
+          </df>
+          <df name="database">
+            <in>Database.hpp</in>
+            <in>DatabaseBuilder.hpp</in>
+            <in>DatabasePartition.hpp</in>
+          </df>
+          <df name="operator">
+            <in>AggregatedIndexScan.hpp</in>
+            <in>EmptyScan.hpp</in>
+            <in>Filter.hpp</in>
+            <in>FullyAggregatedIndexScan.hpp</in>
+            <in>HashGroupify.hpp</in>
+            <in>HashJoin.hpp</in>
+            <in>IndexScan.hpp</in>
+            <in>MergeJoin.hpp</in>
+            <in>MergeUnion.hpp</in>
+            <in>NestedLoopFilter.hpp</in>
+            <in>NestedLoopJoin.hpp</in>
+            <in>Operator.hpp</in>
+            <in>PlanPrinter.hpp</in>
+            <in>ResultsPrinter.hpp</in>
+            <in>Scheduler.hpp</in>
+            <in>Selection.hpp</in>
+            <in>SingletonScan.hpp</in>
+            <in>Sort.hpp</in>
+            <in>TableFunction.hpp</in>
+            <in>Union.hpp</in>
+          </df>
+          <df name="partition">
+            <in>FilePartition.hpp</in>
+            <in>Partition.hpp</in>
+          </df>
+          <df name="runtime">
+            <in>BulkOperation.hpp</in>
+            <in>DifferentialIndex.hpp</in>
+            <in>DomainDescription.hpp</in>
+            <in>PredicateLockManager.hpp</in>
+            <in>Runtime.hpp</in>
+            <in>TemporaryDictionary.hpp</in>
+          </df>
+          <df name="segment">
+            <in>AggregatedFactsSegment.hpp</in>
+            <in>BTree.hpp</in>
+            <in>DictionarySegment.hpp</in>
+            <in>ExactStatisticsSegment.hpp</in>
+            <in>FactsSegment.hpp</in>
+            <in>FullyAggregatedFactsSegment.hpp</in>
+            <in>PredicateSetSegment.hpp</in>
+            <in>Segment.hpp</in>
+            <in>SegmentInventorySegment.hpp</in>
+            <in>SpaceInventorySegment.hpp</in>
+          </df>
+          <df name="transaction">
+            <in>LogAction.hpp</in>
+            <in>LogManager.hpp</in>
+          </df>
+        </df>
+        <df name="tools">
+          <in>rdf3xquery.h</in>
+        </df>
+      </df>
+      <df name="infra">
+        <df name="osdep">
+          <in>Event.cpp</in>
+          <in>GrowableMappedFile.cpp</in>
+          <in>Latch.cpp</in>
+          <in>MemoryMappedFile.cpp</in>
+          <in>Mutex.cpp</in>
+          <in>Thread.cpp</in>
+          <in>Timestamp.cpp</in>
+        </df>
+        <df name="util">
+          <in>Hash.cpp</in>
+          <in>Pool.cpp</in>
+          <in>fastlz.cpp</in>
+        </df>
+      </df>
+      <df name="makeutil">
+        <in>getdep.cpp</in>
+      </df>
+      <df name="rts">
+        <df name="buffer">
+          <in>BufferManager.cpp</in>
+          <in>BufferReference.cpp</in>
+        </df>
+        <df name="database">
+          <in>Database.cpp</in>
+          <in>DatabaseBuilder.cpp</in>
+          <in>DatabasePartition.cpp</in>
+        </df>
+        <df name="operator">
+          <in>AggregatedIndexScan.cpp</in>
+          <in>EmptyScan.cpp</in>
+          <in>Filter.cpp</in>
+          <in>FullyAggregatedIndexScan.cpp</in>
+          <in>HashGroupify.cpp</in>
+          <in>HashJoin.cpp</in>
+          <in>IndexScan.cpp</in>
+          <in>MergeJoin.cpp</in>
+          <in>MergeUnion.cpp</in>
+          <in>NestedLoopFilter.cpp</in>
+          <in>NestedLoopJoin.cpp</in>
+          <in>Operator.cpp</in>
+          <in>PlanPrinter.cpp</in>
+          <in>ResultsPrinter.cpp</in>
+          <in>Scheduler.cpp</in>
+          <in>Selection.cpp</in>
+          <in>SingletonScan.cpp</in>
+          <in>Sort.cpp</in>
+          <in>TableFunction.cpp</in>
+          <in>Union.cpp</in>
+        </df>
+        <df name="partition">
+          <in>FilePartition.cpp</in>
+          <in>Partition.cpp</in>
+        </df>
+        <df name="runtime">
+          <in>BulkOperation.cpp</in>
+          <in>DifferentialIndex.cpp</in>
+          <in>DomainDescription.cpp</in>
+          <in>PredicateLockManager.cpp</in>
+          <in>Runtime.cpp</in>
+          <in>TemporaryDictionary.cpp</in>
+        </df>
+        <df name="segment">
+          <in>AggregatedFactsSegment.cpp</in>
+          <in>BTree.cpp</in>
+          <in>DictionarySegment.cpp</in>
+          <in>ExactStatisticsSegment.cpp</in>
+          <in>FactsSegment.cpp</in>
+          <in>FullyAggregatedFactsSegment.cpp</in>
+          <in>PredicateSetSegment.cpp</in>
+          <in>Segment.cpp</in>
+          <in>SegmentInventorySegment.cpp</in>
+          <in>SpaceInventorySegment.cpp</in>
+        </df>
+        <df name="transaction">
+          <in>LogAction.cpp</in>
+          <in>LogManager.cpp</in>
+        </df>
+      </df>
+      <df name="tools">
+        <df name="dijkstra_implementation">
+          <in>dijkstra_implemenation.cpp</in>
+        </df>
+        <df name="rdf3xdump">
+          <in>rdf3xdump.cpp</in>
+        </df>
+        <df name="rdf3xembedded">
+          <in>rdf3xembedded.cpp</in>
+        </df>
+        <df name="rdf3xload">
+          <in>Sorter.cpp</in>
+          <in>Sorter.hpp</in>
+          <in>StringLookup.cpp</in>
+          <in>StringLookup.hpp</in>
+          <in>TempFile.cpp</in>
+          <in>TempFile.hpp</in>
+          <in>rdf3xload.cpp</in>
+        </df>
+        <df name="rdf3xquery">
+          <in>rdf3xquery.cpp</in>
+        </df>
+        <df name="rdf3xreorg">
+          <in>rdf3xreorg.cpp</in>
+        </df>
+        <df name="rdf3xupdate">
+          <in>rdf3xupdate.cpp</in>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>bin/rdf3xquery</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>.</pElem>
+              <pElem>include</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+      <item path="cts/codegen/CodeGen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cts/infra/BitSet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cts/infra/QueryGraph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cts/parser/SPARQLLexer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cts/parser/SPARQLParser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cts/parser/TurtleParser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cts/plangen/Plan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cts/plangen/PlanGen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cts/semana/SemanticAnalysis.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/cts/codegen/CodeGen.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cts/infra/BitSet.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cts/infra/QueryGraph.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cts/parser/SPARQLLexer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cts/parser/SPARQLParser.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cts/parser/TurtleParser.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cts/plangen/Costs.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cts/plangen/Plan.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cts/plangen/PlanGen.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cts/semana/SemanticAnalysis.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/infra/Config.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/infra/osdep/Event.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/infra/osdep/GrowableMappedFile.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/infra/osdep/Latch.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/infra/osdep/MemoryMappedFile.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/infra/osdep/Mutex.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/infra/osdep/Thread.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/infra/osdep/Timestamp.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/infra/util/Hash.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/infra/util/Pool.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/infra/util/Type.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/infra/util/VarPool.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/infra/util/fastlz.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/rts/buffer/BufferManager.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/buffer/BufferReference.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/database/Database.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/rts/database/DatabaseBuilder.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/database/DatabasePartition.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/operator/AggregatedIndexScan.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/operator/EmptyScan.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/rts/operator/Filter.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/rts/operator/FullyAggregatedIndexScan.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/operator/HashGroupify.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/operator/HashJoin.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/rts/operator/IndexScan.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/rts/operator/MergeJoin.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/rts/operator/MergeUnion.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/operator/NestedLoopFilter.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/operator/NestedLoopJoin.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/operator/Operator.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/rts/operator/PlanPrinter.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/operator/ResultsPrinter.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/operator/Scheduler.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/rts/operator/Selection.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/rts/operator/SingletonScan.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/operator/Sort.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/rts/operator/TableFunction.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/operator/Union.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/rts/partition/FilePartition.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/partition/Partition.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/runtime/BulkOperation.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/runtime/DifferentialIndex.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/runtime/DomainDescription.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/runtime/PredicateLockManager.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/runtime/Runtime.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/rts/runtime/TemporaryDictionary.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/segment/AggregatedFactsSegment.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/segment/BTree.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/rts/segment/DictionarySegment.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/segment/ExactStatisticsSegment.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/segment/FactsSegment.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/segment/FullyAggregatedFactsSegment.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/segment/PredicateSetSegment.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/segment/Segment.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/rts/segment/SegmentInventorySegment.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/segment/SpaceInventorySegment.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/transaction/LogAction.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/rts/transaction/LogManager.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/tools/rdf3xquery.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="infra/osdep/Event.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infra/osdep/GrowableMappedFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infra/osdep/Latch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infra/osdep/MemoryMappedFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infra/osdep/Mutex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infra/osdep/Thread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infra/osdep/Timestamp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infra/util/Hash.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infra/util/Pool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infra/util/fastlz.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="makeutil/getdep.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/buffer/BufferManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/buffer/BufferReference.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/database/Database.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/database/DatabaseBuilder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/database/DatabasePartition.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/AggregatedIndexScan.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="rts/operator/EmptyScan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/Filter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/FullyAggregatedIndexScan.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="rts/operator/HashGroupify.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/HashJoin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/IndexScan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/MergeJoin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/MergeUnion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/NestedLoopFilter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/NestedLoopJoin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/Operator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/PlanPrinter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/ResultsPrinter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/Scheduler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/Selection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/SingletonScan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/Sort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/TableFunction.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/operator/Union.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/partition/FilePartition.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/partition/Partition.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/runtime/BulkOperation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/runtime/DifferentialIndex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/runtime/DomainDescription.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/runtime/PredicateLockManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="rts/runtime/Runtime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/runtime/TemporaryDictionary.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="rts/segment/AggregatedFactsSegment.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="rts/segment/BTree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/segment/DictionarySegment.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/segment/ExactStatisticsSegment.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="rts/segment/FactsSegment.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/segment/FullyAggregatedFactsSegment.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="rts/segment/PredicateSetSegment.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="rts/segment/Segment.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/segment/SegmentInventorySegment.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="rts/segment/SpaceInventorySegment.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="rts/transaction/LogAction.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rts/transaction/LogManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tools/dijkstra_implementation/dijkstra_implemenation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="tools/rdf3xdump/rdf3xdump.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tools/rdf3xembedded/rdf3xembedded.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="tools/rdf3xload/Sorter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tools/rdf3xload/Sorter.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tools/rdf3xload/StringLookup.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tools/rdf3xload/StringLookup.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tools/rdf3xload/TempFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tools/rdf3xload/TempFile.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tools/rdf3xload/rdf3xload.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tools/rdf3xquery/rdf3xquery.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tools/rdf3xreorg/rdf3xreorg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tools/rdf3xupdate/rdf3xupdate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -1,0 +1,11 @@
+<id1> <hastype> "song"; 
+  <hastitle> "Changing of Guards";
+  <performedby> <id2>;
+  <composedBy> <id5>.
+<id2> <hasName> "Patti Smith";
+  <bornOn> "December 30, 1946";
+  <bornIn> <id3>.
+<id3> <hasName> "Chicago";
+  <locatedIn> <id4>.
+<id4> <hasName> "Illiniois".
+<id5> <hasName> "Bob Dylan".
