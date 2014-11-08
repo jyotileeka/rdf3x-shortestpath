@@ -537,7 +537,128 @@ void OldDijkstra_implemenation(Database& db, string srcDest[2])
    outputFileOldDijkstra.close();       
    
 }
-//--------------------------------------------------------------------------
+
+/*
+unsigned dijkstra(unsigned int s, Database &db, unsigned int dist_id)
+{
+    map<unsigned, pair<unsigned,std::vector< pair<unsigned,unsigned> > > >g;
+    map<unsigned int, unsigned int> d1; //distance
+    map<unsigned int, unsigned int> c1; //state
+    vector <pair<unsigned,unsigned> >adjacency_list_variable;
+    d1[s]=0;
+    c1[s]=1;
+    priority_queue<pair<unsigned,pair<unsigned, unsigned > >,vector<pair<unsigned,pair<unsigned,unsigned> > >,greater<pair<unsigned,pair<unsigned, unsigned> > > > q; // declare priority_queue
+    q.push(make_pair(d1[s],make_pair(~0u,s))); //push starting vertex
+    while(!q.empty())
+    {
+        unsigned u=(q.top().second).second;
+        adjacency_list_variable.clear();
+        
+        Register subject,predicate,object;
+        subject.reset(); 
+        predicate.reset(); 
+        object.reset();
+      
+        subject.value=u;
+      
+        IndexScan* scan=IndexScan::create(db, Database::Order_Subject_Predicate_Object, &subject, true, &predicate, false, &object, false, 0);
+        
+        if(scan->first())do
+        {            
+            adjacency_list_variable.push_back(make_pair(predicate.value,object.value));
+            adjacency_list_variable.push_back(make_pair(~0u,predicate.value));         
+        }while (scan->next());
+        else
+        {
+            adjacency_list_variable.clear();
+        }
+        delete scan;
+        g[u]=make_pair((q.top().second).first,adjacency_list_variable);
+        
+        q.pop(); //pop vertex from queue
+        if(c1[u]==2)
+            continue;
+        c1[u]=2; 
+        for(unsigned i=0;i<(g[u].second).size();i++)
+        {
+            uint32_t v=(g[u].second)[i].second; //4byte 
+            unsigned predicateBeforeObject=(g[u].second)[i].first;
+            if(c1[v]==0) //new vertex found
+            {
+                d1[v]=d1[u]+1;
+                c1[v]=1;
+                q.push(make_pair(d1[v],make_pair(predicateBeforeObject,v))); //add vertex to queue
+            }
+            else if(c1[v]==1 && d1[v]>d1[u]+1) //shorter path to gray vertex found
+            {
+                d1[v]=d1[u]+1;
+            }
+            if(v==dist_id)
+            {
+                unsigned distance=d1[v];
+                g.clear();
+                
+                d1.clear();
+                c1.clear();
+                adjacency_list_variable.clear();
+                q=priority_queue<pair<unsigned,pair<unsigned, unsigned > >,vector<pair<unsigned,pair<unsigned,unsigned> > >,greater<pair<unsigned,pair<unsigned, unsigned> > > >();                    
+                //delete scan;
+                return distance;
+            }
+        }
+    }
+    g.clear();
+    d1.clear();
+    c1.clear();
+    adjacency_list_variable.clear();
+    q=priority_queue<pair<unsigned,pair<unsigned, unsigned > >,vector<pair<unsigned,pair<unsigned,unsigned> > >,greater<pair<unsigned,pair<unsigned, unsigned> > > >();    
+    return 0;
+}
+//-------------------------------------------------------
+void dijkstra_implemenation(char* argv, string srcDest[2]) //srcDest[2] is an array of source destination pairs
+{
+    Database db;
+       // Open the database   
+    if (!db.open(argv,true)) {
+           cerr << "unable to open database " << argv[1] << endl;
+    }           
+    
+    unsigned int id=0;    
+    ofstream outputFile1;
+
+    timespec tS;
+    tS.tv_sec = 0;
+    tS.tv_nsec = 0;
+    //clock_settime(CLOCK_PROCESS_CPUTIME_ID, &tS);
+    struct timeval start, end;
+    long mtime, seconds, useconds;    
+    gettimeofday(&start, NULL);  
+
+    SemanticAnalysis semana(db);
+    //Type type;
+    semana.lookupNode(srcDest[0] ,Type::URI , 0, id); //the correct implementation for obtaining an id
+      
+    unsigned int dist_id=0;
+    semana.lookupNode(srcDest[1],Type::URI , 0, dist_id);
+    if(dist_id==0)
+    {
+        semana.lookupNode(srcDest[1], Type::Literal, 0, dist_id);
+    }
+    
+    unsigned distanceFromSourceToDestination=0;
+    distanceFromSourceToDestination=dijkstra(id, db, dist_id);
+    
+    gettimeofday(&end, NULL);
+    seconds  = end.tv_sec  - start.tv_sec;
+    useconds = end.tv_usec - start.tv_usec;
+    mtime = ((seconds) * 1000 + useconds/1000.0) + 0.5;
+
+    db.close();  
+    outputFile1.open("OutputFile.txt", ios::app|ios::out);           
+    outputFile1<<distanceFromSourceToDestination<<"\t"<<mtime<<" msec";    
+    outputFile1.close();
+}
+*/
 int main(int argc,char* argv[])
 {   
    int runAsColdOrWarmCache=0;
