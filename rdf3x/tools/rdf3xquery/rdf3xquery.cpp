@@ -173,8 +173,8 @@ map<unsigned,pair<unsigned,unsigned > > dijkstra(unsigned int s, Database &db, u
         IndexScan * scan=IndexScan::create(db, Database::Order_Subject_Predicate_Object, &subject, true, &predicate, false, &object, false, 0);
         if(scan->first())do
         {            
-            adjacency_list_variable.push_back(make_pair(predicate.value,object.value));
             adjacency_list_variable.push_back(make_pair(~0u,predicate.value));         
+            adjacency_list_variable.push_back(make_pair(predicate.value,object.value));
         }while (scan->next());
         else
         {
@@ -193,14 +193,22 @@ map<unsigned,pair<unsigned,unsigned > > dijkstra(unsigned int s, Database &db, u
             unsigned predicateBeforeObject=(g[u].second)[i].first;
             if(c1[v]==0) //new vertex found
             {
-                d1[v]=d1[u]+1;
+                if(predicateBeforeObject!=~0u)
+                    d1[v]=d1[predicateBeforeObject]+1;
+                else
+                    d1[v]=d1[u]+1;
+                //d1[v]=d1[u]+1;
                 c1[v]=1;
                 q.push(make_pair(d1[v],make_pair(predicateBeforeObject,v))); //add vertex to queue
                 prev1[v]=make_pair(u,predicateBeforeObject);
             }
             else if(c1[v]==1 && d1[v]>d1[u]+1) //shorter path to gray vertex found
             {
-                d1[v]=d1[u]+1;
+                if(predicateBeforeObject!=~0u)
+                    d1[v]=d1[predicateBeforeObject]+1;
+                else
+                    d1[v]=d1[u]+1;
+                //d1[v]=d1[u]+1;
                 //q.push(make_pair(d1[v],make_pair(predicateBeforeObject,v))); //push this vertex to queue
                 prev1[v]=make_pair(u,predicateBeforeObject);
             }
